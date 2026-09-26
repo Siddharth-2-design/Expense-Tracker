@@ -11,7 +11,6 @@ const box1 = document.querySelector("#box1");
 const box2 = document.querySelector("#box2");
 
 
-
 btn.addEventListener("click" , () => {
 
     
@@ -26,7 +25,6 @@ btn.addEventListener("click" , () => {
 
         task_tittle.innerText = tittle.value;
 
-        
         const amount_txt = document.createElement("div");
         amount_txt.classList.add("amount_txt");
         task.appendChild(amount_txt);
@@ -44,8 +42,6 @@ btn.addEventListener("click" , () => {
         date_txt.innerText = date.value;
         amounttracker();
         finalamount();
-
-
 
     }else if(type.value == "expense"){
         const expense_task = document.createElement("div");
@@ -82,37 +78,6 @@ btn.addEventListener("click" , () => {
     
     }
 })
-function createTransaction(transaction) {
-
-    const task = document.createElement("div");
-    task.classList.add("box");
-
-    const task_tittle = document.createElement("div");
-    task_tittle.classList.add("task_tittle");
-    task.appendChild(task_tittle);
-    task_tittle.innerText = transaction.tittle;
-
-    const amount_txt = document.createElement("div");
-    amount_txt.classList.add("amount_txt");
-    task.appendChild(amount_txt);
-    amount_txt.innerText = transaction.amount;
-
-    const category_txt = document.createElement("div");
-    category_txt.classList.add("category_txt");
-    task.appendChild(category_txt);
-    category_txt.innerText = transaction.category;
-
-    const date_txt = document.createElement("div");
-    date_txt.classList.add("date_txt");
-    task.appendChild(date_txt);
-    date_txt.innerText = transaction.date;
-
-    if (transaction.type == "earning") {
-    box1.appendChild(task);
-} 
-else if (transaction.type == "expense") {
-    box2.appendChild(task);
-}}
 
 function amounttracker(){
     if(type.value == "earning" ){
@@ -135,4 +100,3 @@ function amounttracker(){
     let amount_left = Number(earning.innerText) - Number(expense.innerText) ;
     total.innerText = amount_left;
  }
- createTransaction(transaction);
