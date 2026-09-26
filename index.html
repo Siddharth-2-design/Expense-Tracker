@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">EXPENSE TRACKER</div>
+    </div>
+
+    <div class="span_class">
+        <span class="span">Total Income : $</span>
+        <div class="total">00</div>
+    </div>
+
+    
+    <div class="tracker">
+
+       <div>
+        <span class="para1">Earning : $</span>
+        <div class="earning">00</div>
+       </div> 
+
+       <div>
+         <span class="para2">Expense : $</span>
+        <div class="expense">00</div>
+       </div> 
+
+    </div>
+
+    <section class="section_box">
+        <div class="section">
+        <div class="input_tittle">
+            <p class="text_tittle">ENTER TITTLE : </p>
+            <input class="tittle" type="text"  placeholder="ENTER TITTLE">
+        </div>
+
+
+        <div class="input_amount">
+            <P class="amount_text">ENTER AMOUNT : </P>
+            <input class="amount" type="number" placeholder="ENTER AMOUNT">
+        </div>
+
+
+        <div class="input_type">
+            <p class="type_text"> ENTER TYPE : </p>
+            <select class="type">
+                <option value="expense">Expense</option>
+                <option value="earning">Earning</option>
+            </select>
+        </div>
+
+
+        <div class="input_category">
+            <p class="category_text">CHOOSE CATEGORY : </p>
+            <select class="category">
+                <option value="work">work</option>
+                <option value="food">Food</option>
+                <option value="Friends">Friends and Chill</option>
+                <option value="grocery">Grocery</option>
+                <option value="bills">Bills</option>           
+                <option value="requirements">Requirements</option>
+            </select>
+        </div>
+
+
+        <div class="input_date">
+
+            <p class="text_date">ENTER DATE :</p>
+            <input class="date"  type="date" placeholder="ENTER DATA">
+            
+        </div>
+        <button class="btn">add</button>
+        </div>
+
+
+    </section>
+
+
+    <section class="add_task">
+        <div class="container" id="box1">EARNING DETAILS</div>
+        <div class="container" id="box2">EXPENSE DETAILS</div>
+
+    </section>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>

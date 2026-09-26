@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+
+.nav{
+    height: 40px;
+    background-color: rgb(9, 9, 66);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.logo{
+    color: white;
+    font-size: 25px;
+}
+
+
+.total{
+    color: black;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    padding: 20px;
+
+}
+.span{
+    font-size: 50px;
+}
+.span_class{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tracker{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+div{
+    display: flex;
+    flex-direction: row;
+}
+.earning,.para1{
+    font-size: 50px;
+    color: rgb(3, 209, 3);
+}
+.expense,.para2{
+    font-size: 50px;
+    color: rgb(218, 3, 3);
+}
+
+.section_box{
+    display: flex;
+    justify-content: center;
+}
+.section{
+    background-color: rgba(128, 127, 127, 0.966);
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    display: flex;   
+    gap: 20px;
+    flex-direction: column;
+    width: 400px;
+
+
+}
+
+
+.input_tittle{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+.text_tittle{
+    font-size: 20px;
+}
+.tittle{
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.input_amount{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.amount_text{
+    font-size: 20px;
+}
+.amount{
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+
+}
+.input_type{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.type_text{
+    font-size: 20px;
+}
+.type{
+    height: 35px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.input_category{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.category_text{
+    font-size: 20px;
+}
+.category{
+    height: 35px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.input_date{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+.text_date{
+    font-size: 20px;
+}
+.date{
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.btn{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(194, 3, 3);
+    border-radius: 10px;
+    width: 80px;
+    font-size: 15px;
+}
+
+.add_task{
+    background-color: rgb(252, 253, 253);
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+
+}
+.container{
+    background-color: rgb(134, 133, 133);
+    height:auto;
+    width:400px;
+    height: auto;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.box{
+    border-radius: 10px;
+    width: 380px;
+    height: 100px;
+    background-color: #1d1c1c;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+.task_tittle{
+    color: white;
+    font-size: 20px;
+    
+    height: 30px;
+
+
+}
+.category_txt{
+    font-size: 15px;
+    
+}
+.amount_txt{
+   font-size: 15px;
+
+}
+
+.date_txt{
+    font-size: 10px;
+
+}
